@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="100" viewBox="0 0 200 100">
+  <!-- Green Earth -->
+  <circle cx="50" cy="50" r="40" fill="#4CAF50" stroke="#2E7D32" stroke-width="2" />
+  
+  <!-- Land Masses -->
+  <path d="M30,30 Q40,20 50,25 T70,35 Q80,45 65,60 T40,70 Q25,65 30,50 T30,30" fill="#81C784" />
+  <path d="M50,40 Q60,30 70,45 T60,70 Q45,75 40,60 T50,40" fill="#81C784" />
+  
+  <!-- Carbon Emissions Representation -->
+  <path d="M100,20 L120,20 L120,80 L100,80 Z" fill="#424242" opacity="0.7" />
+  <path d="M130,30 L150,30 L150,80 L130,80 Z" fill="#424242" opacity="0.7" />
+  <path d="M160,50 L180,50 L180,80 L160,80 Z" fill="#424242" opacity="0.7" />
+  
+  <!-- Downward Trend Line (Reduction) -->
+  <path d="M100,30 L180,60" stroke="#FF5722" stroke-width="3" fill="none" stroke-dasharray="5,3" />
+  
+  <!-- CO2 Molecule -->
+  <circle cx="160" cy="30" r="8" fill="#FFFFFF" stroke="#424242" stroke-width="1" />
+  <circle cx="144" cy="30" r="8" fill="#FFFFFF" stroke="#424242" stroke-width="1" />
+  <circle cx="176" cy="30" r="8" fill="#FFFFFF" stroke="#424242" stroke-width="1" />
+  
+  <text x="157" y="33" font-family="Arial" font-size="8" text-anchor="middle" fill="#424242">C</text>
+  <text x="144" y="33" font-family="Arial" font-size="8" text-anchor="middle" fill="#424242">O</text>
+  <text x="176" y="33" font-family="Arial" font-size="8" text-anchor="middle" fill="#424242">O</text>
+  
+  <!-- Connect CO2 atoms -->
+  <line x1="152" y1="30" x2="144" y2="30" stroke="#424242" stroke-width="1.5" />
+  <line x1="168" y1="30" x2="176" y2="30" stroke="#424242" stroke-width="1.5" />
+  
+  <!-- Text -->
+  <text x="100" y="100" font-family="Arial" font-weight="bold" font-size="12" fill="#2E7D32">GHG EMISSIONS CALCULATOR</text>
+</svg>
